@@ -6,7 +6,11 @@ const port = 5000;
 app.use(express.static("public"));
 
 app.get('/', (req, res) => {
-    res.send("Welcome to the portal");
+    res.sendFile(path.join(__dirname, "../jquery-app", 'home.html'));
+});
+
+app.get('/finance', (req, res) => {
+    res.sendFile(path.join(__dirname, "../jquery-app", 'finance.html'));
 });
 
 //allowing express to access the build static directory
