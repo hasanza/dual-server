@@ -15,6 +15,7 @@ function Nav() {
       <nav className={styles.links}>
         <h4><Link style={{textDecoration:"none", color: 'inherit'}} to="/dashboard">Dashboard</Link></h4>
         <h4><Link style={{textDecoration:"none", color: 'inherit'}} to="/finance">Finance</Link></h4>
+        <a href="/finance">Test2</a>
         <h4><Link style={{textDecoration:"none", color: 'inherit'}} to="/courses">Courses</Link></h4>
         <h4><Link style={{textDecoration:"none", color: 'inherit'}} to="/careers">Careers</Link></h4>
       </nav>
