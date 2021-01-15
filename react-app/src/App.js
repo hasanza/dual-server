@@ -3,7 +3,7 @@ import React from "react";
 import { Nav, Home, Dash, Finance, Careers, Courses } from "./components";
 //we use the Router to wrap routes; it uses HTML5 history API to keep track of route history in the React app.
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route
 } from 'react-router-dom';
