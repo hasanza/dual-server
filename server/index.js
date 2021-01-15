@@ -16,7 +16,7 @@ app.get('/finance', (req, res) => {
 //allowing express to access the build static directory
 app.use('/react', express.static(path.join(__dirname, "../react-app", "build")));
 
-app.get('/react', (req, res) => {
+app.get('/*', (req, res) => {
     //serving the build directory
     res.sendFile(path.join(__dirname, "../react-app", 'build', 'index.html'));
 });
