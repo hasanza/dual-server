@@ -1,0 +1,18 @@
+body {
+    background-color: #f2f3f8;
+    color: #575962;
+}
+
+.container {
+   text-align: center;
+}
+
+.clubTable {
+    margin: 5% auto;
+    /* display:block; */
+    /* box-sizing: border-box; */
+    background-color: #FFFFFF;
+    width: fit-content;
+    border-radius: 3px;
+    padding: 0px 15px;
+}

@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Nav, Home, Dash, Finance, Careers, Courses } from "./components";
+import { Nav, Home, Dash, Finance, StudentLife, Careers, Courses } from "./components";
 //we use the Router to wrap routes; it uses HTML5 history API to keep track of route history in the React app.
 import {
   BrowserRouter,
@@ -18,6 +18,7 @@ function App() {
         <Route path="/finance" element={<Finance/>} />
         <Route path="/courses" element={<Courses/>} />
         <Route path="/careers" element={<Careers/>} />
+        <Route path="/student-life" element={<StudentLife/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
