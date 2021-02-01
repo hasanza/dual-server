@@ -3,16 +3,21 @@ body {
     color: #575962;
 }
 
+h1 {
+    width: 85%;
+    margin: 2% auto;
+}
+
 .container {
    text-align: center;
 }
 
-.clubTable {
-    margin: 5% auto;
+#clubTable {
+    margin: 2% auto;
     /* display:block; */
     /* box-sizing: border-box; */
     background-color: #FFFFFF;
     width: fit-content;
     border-radius: 3px;
-    padding: 0px 15px;
+    width: 85%;
 }
